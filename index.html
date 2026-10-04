@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matías Vilella Eguez — Portafolis DAM</title>
+  <meta name="description" content="Portafolis de Matías Vilella Eguez, estudiant de DAM Dual a l’Institut Baix Camp de Reus. Formació, habilitats, experiència i projectes.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contingut">Salta al contingut</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inici" aria-label="Inici del portafolis"><span class="brand-icon" aria-hidden="true">&lt;/&gt;</span> matias<span class="accent">.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navegacio" hidden>Menú <span aria-hidden="true">＋</span></button>
+      <nav id="navegacio" aria-label="Navegació principal">
+        <a href="#sobre-mi">Sobre mi</a>
+        <a href="#projectes">Projectes</a>
+        <a href="#habilitats">Habilitats</a>
+        <a href="#formacio">Formació</a>
+        <a href="#experiencia">Experiència</a>
+        <a class="nav-contact" href="#contacte">Parlem <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contingut">
+    <section class="hero container" id="inici" aria-labelledby="hero-title">
+<p class="eyebrow">ESTUDIANT DE DAM DUAL · REUS</p>
+<h1 id="hero-title">Matías Vilella Eguez</h1>
+<p class="hero-description">Estudio Desenvolupament d'Aplicacions Multiplataforma a l’Institut Baix Camp. M’interessa la programació i continuo aprenent amb cada pràctica.</p>
+<div class="hero-actions"><a class="button" href="./documents/Matias-Vilella-Eguez-CV.pdf" download>Descarrega el CV</a><a href="#contacte">Contacta amb mi</a></div>
+</section>
+
+    <section class="section container about-section" id="sobre-mi" aria-labelledby="about-title">
+      <div><h2 id="about-title">Sobre mi</h2></div>
+      <div class="about-copy">
+        <p class="lead">Soc en <strong>Matías Vilella Eguez</strong>, estudiant de <strong>Desenvolupament d'Aplicacions Multiplataforma Dual</strong> a l’Institut Baix Camp de Reus. Soc una persona responsable, motivada i amb un gran interès pel món de la programació.</p>
+        <p>Aprenc amb rapidesa i gaudeixo afrontant nous reptes tecnològics. Busco continuar formant-me i aplicar els meus coneixements en projectes reals que em permetin créixer com a desenvolupador.</p>
+        <dl class="personal-facts"><div><dt>Nom</dt><dd>Matías Vilella Eguez</dd></div><div><dt>Localitat</dt><dd>Reus</dd></div><div><dt>Formació actual</dt><dd>CFGS de DAM · Dual</dd></div><div><dt>Centre</dt><dd>Institut Baix Camp · Reus</dd></div><div><dt>Data de naixement</dt><dd><time datetime="2005-09-02">02/09/2005</time></dd></div><div><dt>Permís de conduir</dt><dd>Tipus B</dd></div></dl>
+      </div>
+    </section>
+
+    <section class="section container" id="projectes" aria-labelledby="projects-title">
+<h2 id="projects-title">Projectes</h2>
+<div class="project-tools" hidden>
+<div class="filters" role="group" aria-label="Filtra els projectes per categoria">
+<button type="button" data-filter="all" aria-pressed="true" aria-controls="project-grid">Tots</button>
+<button type="button" data-filter="web" aria-pressed="false" aria-controls="project-grid">Web</button>
+<button type="button" data-filter="java" aria-pressed="false" aria-controls="project-grid">Java</button>
+<button type="button" data-filter="dades" aria-pressed="false" aria-controls="project-grid">Bases de dades</button>
+</div></div>
+<p id="result-count" role="status" aria-live="polite" hidden></p>
+<div id="project-grid"><!-- Afegeix aquí projectes reals amb class="project-card" i data-category="web", "java" o "dades". --></div>
+<p class="empty-state" id="empty-state">Encara no tinc projectes</p>
+</section>
+
+    <section class="section container" id="habilitats" aria-labelledby="skills-title">
+      <div class="section-heading"><div><h2 id="skills-title">Habilitats</h2></div></div>
+      <div class="skills-grid">
+        <article class="skill-group"><h3>Programació</h3><p>Coneixements de llenguatges i lògica de programació.</p><ul><li>Java</li><li>C++</li><li>Python</li><li>PHP</li><li>HTML</li></ul></article>
+        <article class="skill-group"><h3>Eines i competències</h3><p>Capacitat per resoldre problemes i aprendre noves tecnologies.</p><ul><li>Entorns de desenvolupament</li><li>Bases de dades</li><li>Resolució de problemes</li><li>Aprenentatge ràpid</li><li>Treball en equip</li></ul></article>
+        <article class="skill-group"><h3>Idiomes</h3><p>Competències lingüístiques per comunicar-me en diferents entorns.</p><ul><li>Castellà <span>Natiu</span></li><li>Català <span>Natiu</span></li><li>Anglès <span>Intermedi alt · B2</span></li></ul></article>
+      </div>
+    </section>
+
+    <section class="section container education-section" id="formacio" aria-labelledby="education-title">
+      <div><h2 id="education-title">Formació</h2><p class="section-description">La meva formació acadèmica, amb la mirada posada en el desenvolupament d’aplicacions.</p><button type="button" class="text-link print-button" hidden>Imprimeix el portafolis <span aria-hidden="true">↗</span></button></div>
+      <div class="education-list">
+        <article class="education-item"><div class="education-meta"><span>2025 — ACTUALITAT</span></div><h3>Desenvolupament d'Aplicacions Multiplataforma</h3><p>CFGS · Modalitat Dual</p><p class="education-description">Institut Baix Camp · Reus</p></article>
+        <article class="education-item"><div class="education-meta"><span>2023 — 2025</span></div><h3>Batxillerat</h3><p>Institut Gaudí · Reus</p></article>
+        <article class="education-item"><div class="education-meta"><span>2019 — 2023</span></div><h3>Educació Secundària Obligatòria</h3><p>Institut La Presentación · Reus</p></article>
+      </div>
+    </section>
+
+    <section class="section container education-section" id="experiencia" aria-labelledby="experience-title">
+      <div><h2 id="experience-title">Experiència</h2><p class="section-description">Responsabilitat, organització i una actitud proactiva davant de cada repte.</p></div>
+      <div class="education-list">
+        <article class="education-item"><div class="education-meta"><span>2024 · 2 MESOS</span></div><h3>Ajudant de cuina</h3><p>PortAventura World</p><ul class="experience-tasks"><li>Col·laboració en la preparació de menús i control dels temps de servei.</li><li>Manteniment d’un entorn de treball net, organitzat i segur.</li><li>Treball en equip sota pressió en un entorn dinàmic i exigent.</li><li>Rapidesa, responsabilitat i actitud proactiva durant el servei.</li></ul></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacte" aria-labelledby="contact-title">
+      <div class="container contact-inner"><div><h2 id="contact-title">Contacte</h2><p>M’interessa continuar aprenent i aplicar els meus coneixements a projectes reals.</p></div><div class="contact-info"><p class="contact-label">CORREU ELECTRÒNIC</p><a class="contact-email" href="mailto:matiasvilellaeguez@proton.me">matiasvilellaeguez@proton.me <span aria-hidden="true">↗</span></a><p class="contact-label">TELÈFON</p><p class="contact-phone"><a href="tel:+34634762561">634 762 561</a></p><p class="contact-help">Reus · Permís de conduir B</p><a class="contact-cv" href="./documents/Matias-Vilella-Eguez-CV.pdf" download>Descarrega el currículum (PDF) <span aria-hidden="true">↓</span></a></div></div>
+    </section>
+  </main>
+  <footer class="container footer"><a class="brand" href="#inici">matias<span class="accent">.</span></a><p>© <span id="year">2026</span> · Matías Vilella Eguez</p><a href="#inici">Torna a dalt <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>
+
